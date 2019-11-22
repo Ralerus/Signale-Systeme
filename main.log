@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  22 NOV 2019 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.22)  22 NOV 2019 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -220,7 +220,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2858.
 LaTeX Info: Redefining \] on input line 2859.
 )
-(./main.aux (./transfer_function.aux))
+(./main.aux (./transfer_function.aux) (./state_space_representation.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -286,30 +286,38 @@ e
 
 (./transfer_function.tex) [2
 
-] (./main.aux (./transfer_function.aux)) ) 
+]
+\openout2 = `state_space_representation.aux'.
+
+ (./state_space_representation.tex) [3
+
+
+]
+(./main.aux (./transfer_function.aux) (./state_space_representation.aux)) ) 
 Here is how much of TeX's memory you used:
- 4332 strings out of 492164
- 62080 string characters out of 6124347
- 169299 words of memory out of 5000000
- 8613 multiletter control sequences out of 15000+600000
+ 4344 strings out of 492164
+ 62445 string characters out of 6124347
+ 171623 words of memory out of 5000000
+ 8618 multiletter control sequences out of 15000+600000
  11352 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,7n,52p,364b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Programme/texlive/2019/texmf-dist
-/fonts/enc/dvips/cm-super/cm-super-t1.enc}<d:/Programme/texlive/2019/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Programme/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Programme/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Programme/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Programme/texlive/2019/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programme/texlive/2019/texmf-dis
-t/fonts/type1/public/cm-super/sfbx1200.pfb><d:/Programme/texlive/2019/texmf-dis
-t/fonts/type1/public/cm-super/sfbx1728.pfb><d:/Programme/texlive/2019/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Programme/texlive/2019/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (2 pages, 105924 bytes).
+ 48i,12n,52p,364b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/
+Programme/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<d:/
+Programme/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:
+/Programme/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d
+:/Programme/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d
+:/Programme/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d
+:/Programme/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:
+/Programme/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d
+:/Programme/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d
+:/Programme/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><d
+:/Programme/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d
+:/Programme/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (3 pages, 120802 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
