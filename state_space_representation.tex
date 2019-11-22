@@ -3,22 +3,24 @@
 Die allgemeine Form der Zustandsraumdarstellung ist in den folgenden zwei Zeilen zu sehen.
 
 \begin{eqnarray*}
-	\dot x &=& Ax + Bu \nonumber \\
+	\dot x &=& Ax + Bu \\
 	y &=& Cx + Du
 \end{eqnarray*}
 
-Das behandelte IT1-Glied besitzt folgende Zustandsraumdarstellung:
+Das behandelte IT1-Glied besitzt mit den Anfangswerten \[x_1(0) = y(0),  x_2(0) = \dot y(0)\] folgende Zustandsraumdarstellung:
 
 \begin{eqnarray*}
-	\dot x &=& \left(\begin{array}{cc} 0 & 1\\ \frac{1}{7} & 0\end{array}\right) x + \left(\begin{array}{c} 0\\ -\frac{4}{7}\end{array}\right) u  \nonumber \\
+	\dot x &=& \left(\begin{array}{cc} 0 & 1\\ \frac{1}{7} & 0\end{array}\right) x + \left(\begin{array}{c} 0\\ -\frac{4}{7}\end{array}\right) u \\
 	y &=& \left(\begin{array}{cc} 1 & 0\end{array}\right) x
-\end{eqnarray*}
+\end{eqnarray*} 
+
+
 
 
 UNTERSCHIEDLICH ZU MATLAB LÖSUNG???
 Matlab:
 
 \begin{eqnarray*}
-	\dot x &=& \left(\begin{array}{cc} -\frac{1}{7} & 0\\ \frac{1}{4} & 0\end{array}\right) x + \left(\begin{array}{c} 2\\ 0\end{array}\right) u  \nonumber \\
+	\dot x &=& \left(\begin{array}{cc} -\frac{1}{7} & 0\\ \frac{1}{4} & 0\end{array}\right) x + \left(\begin{array}{c} 2\\ 0\end{array}\right) u  \\
 	y &=& \left(\begin{array}{cc} 0 & \frac{8}{7}\end{array}\right) x
 \end{eqnarray*}
