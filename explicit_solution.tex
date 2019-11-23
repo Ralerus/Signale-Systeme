@@ -1,0 +1,16 @@
+\subsection{Die explizite Lösung}
+
+Durch die inverse Laplacetransformation lässt sich die explizite Lösung des Systems für die Impulsfunktion als Eingangssignal ermitteln:
+
+\begin{eqnarray*}
+	g(t) &=& L^{-1}\{\frac{4}{7s^2 + s}\} \\ 
+	&=& 4 - 4*e^{-\frac{t}{7}}
+\end{eqnarray*}
+
+
+Durch die Integration der expliziten Lösung kommen wir auf h(t):
+
+\begin{eqnarray*}
+	h(t) &=& \int_{0}^{t}g(\tau)d\tau \\ 
+	&=& 4 * t + 28*e^{-\frac{t}{7}}
+\end{eqnarray*}
